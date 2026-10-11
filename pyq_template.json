@@ -1,0 +1,49 @@
+[
+  {
+    "exam": "JEE Main",
+    "year": 2024,
+    "branch": "Physical",
+    "chapter": "Chemical kinetics",
+    "type": "mcq",
+    "q": "PLACEHOLDER: type or paste the question text from the official paper here.",
+    "options": [
+      "option A text",
+      "option B text",
+      "option C text",
+      "option D text"
+    ],
+    "answer": "B",
+    "explain": "optional: your own short explanation",
+    "source": "optional: paper date, shift and question number"
+  },
+  {
+    "exam": "JEE Advanced",
+    "year": 2023,
+    "branch": "Inorganic",
+    "chapter": "Coordination compounds",
+    "type": "msq",
+    "q": "PLACEHOLDER: a question with one or more correct options.",
+    "options": [
+      "option A text",
+      "option B text",
+      "option C text",
+      "option D text"
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "source": "optional"
+  },
+  {
+    "exam": "JEE Main",
+    "year": 2022,
+    "branch": "Organic",
+    "chapter": "Aldehydes and ketones",
+    "type": "num",
+    "q": "PLACEHOLDER: a numerical-answer question.",
+    "answer": 12,
+    "tolerance": 0,
+    "source": "optional"
+  }
+]

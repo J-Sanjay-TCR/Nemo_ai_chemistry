@@ -1,0 +1,14 @@
+{
+  "name": "nemo-chemistry-tutor",
+  "version": "3.0.0",
+  "description": "Nemo: offline-first AI chemistry tutor for CBSE, JEE Main and JEE Advanced (3D molecules, rules and exceptions library, PYQ bank, practice analytics). Optional server-side Gemini or Claude chat.",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node scripts/build-single.js",
+    "build:single": "node scripts/build-single.js"
+  }
+}

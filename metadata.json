@@ -1,0 +1,5 @@
+{
+  "name": "Nemo Chemistry Tutor",
+  "description": "Offline-first chemistry tutor for CBSE and JEE: rotatable 3D molecules, a rules and exceptions library, a PYQ bank you import yourself, practice analytics, and optional Gemini chat through a server-side key.",
+  "requestFramePermissions": ["microphone"]
+}

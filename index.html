@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nemo is a chemistry study companion for CBSE, JEE Main and JEE Advanced with chat, 3D molecules, practice questions and a formula bank.">
+  <title>Nemo — AI Chemistry Tutor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="molecules.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="lib-physical.js" defer></script>
+  <script src="lib-inorganic.js" defer></script>
+  <script src="lib-organic.js" defer></script>
+  <script src="lib-organic2.js" defer></script>
+  <script src="pyq.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#top"><span class="brand-mark">⚛</span><span>Nemo<small>AI Chemistry Tutor</small></span></a>
+      <nav aria-label="Sections">
+        <a class="nav-item active" href="#chatPanel">Chat with Nemo</a>
+        <a class="nav-item" href="#moleculePanel">3D Molecules</a>
+        <a class="nav-item" href="#practicePanel">Practice</a>
+      </nav>
+    </aside>
+    <main class="main">
+      <section id="chatPanel" class="panel chat-panel">
+        <div class="panel-head">
+          <div>
+            <strong>Chat with Nemo</strong>
+            <small>Ask chemistry questions</small>
+          </div>
+        </div>
+        <div id="messages" class="chat-messages"></div>
+        <div class="prompt-row">
+          <textarea id="questionInput" placeholder="Ask a chemistry question..."></textarea>
+          <button id="sendBtn" class="send-btn" aria-label="Send message">➤</button>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
